@@ -1,1 +1,151 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --primary: #3a6ea5;
+  --secondary: #e8f1fa;
+  --bg: #f9fafc;
+  --text: #333;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+section {
+  max-width: 90%;
+  margin: auto;
+
+  padding: 70px 20px;
+}
+
+h1, h2 {
+  color: var(--primary);
+}
+
+.fade {
+  animation: fadeIn 1s ease both;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+img {
+  content-visibility: auto;
+  contain-intrinsic-size: 300px;
+}
+
+
+p {
+  line-height: 1.7;
+  word-wrap: break-word;
+}
+
+
+
+@media (max-width: 768px) {
+  section {
+    padding: 40px 15px;
+  }
+}
+
+.page-loader {
+  position: fixed;
+  inset: 0;
+  background: white;
+  z-index: 9999;
+  animation: fadeOut 0.8s ease forwards;
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+
+body {
+  background:
+    linear-gradient(180deg, #f9fafc 0%, #eef4fa 100%);
+}
+
+/* .soft-bg {
+    
+  background: linear-gradient(rgb(253 253 253 / 52%), rgb(247 231 231 / 1%)), url("assets/images/internship/bg3.webp");
+    background-size: cover;
+    background-position: center;
+} */
+
+
+
+/* darkmode */
+
+:root {
+  --bg: #f9fafc;
+  --card: #ffffff;
+  --text-main: #1f2937;     /* headings */
+  --text-para: #374151;     /* paragraphs */
+  --text-muted: #6b7280;    /* descriptions */
+  --primary: #3a6ea5;
+}
+
+/* DARK MODE */
+body.dark {
+  --bg: #0f172a;           /* deep slate */
+  --card: #111827;         /* card dark */
+  --text-main: #f8fafc;    /* bright white */
+     /* readable light */
+   /* soft grey */
+   --text-pardar:rgb(114, 141, 184);
+  --primary: #60a5fa;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text-para);
+  transition: background 0.4s ease, color 0.4s ease;
+}
+
+/* HEADINGS */
+h1, h2, h3, h4 {
+  color: var(--text-main);
+  transition: color 0.3s ease;
+}
+
+/* PARAGRAPHS */
+p {
+  color: var(--text-pardar);
+  transition: color 0.3s ease;
+}
+
+/* DESCRIPTION / SUBTEXT */
+.subtitle,
+.desc,
+.description,
+.small-text {
+  color: var(--text-muted);
+  transition: color 0.3s ease;
+}
+
+/* CARD / SECTION */
+section,
+.card {
+  background: var(--card);
+  transition: background 0.4s ease;
+}
+* {
+  transition:
+    background-color 0.35s ease,
+    color 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
+}

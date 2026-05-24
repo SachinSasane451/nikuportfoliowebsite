@@ -1,0 +1,14 @@
+.about-wrapper {
+  max-width: 850px;
+}
+
+.about-wrapper p {
+  margin-bottom: 16px;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .about-wrapper {
+    text-align: left;
+  }
+}

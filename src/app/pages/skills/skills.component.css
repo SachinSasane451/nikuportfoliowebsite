@@ -1,0 +1,52 @@
+.skills h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.card {
+  background: var(--secondary);
+  padding: 20px;
+  border-radius: 14px;
+  margin-bottom: 30px;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.06);
+  animation: fadeIn 0.8s ease;
+}
+
+.card h3 {
+  color: var(--primary);
+  margin-bottom: 18px;
+  font-size: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 26px;
+}
+
+.grid li {
+  background: white;
+  padding: 10px 16px;
+  border-radius: 15px;
+  font-size: 15px;
+}
+
+/* CERT SLIDER */
+.cert-slider {
+  position: relative;
+  text-align: center;
+}
+
+.cert-slider img {
+  width: 100%;
+  max-height: 220px;
+  object-fit: contain;
+  border-radius: 12px;
+  animation: fadeIn 0.6s ease;
+}
+
+.cert-title {
+  margin-top: 12px;
+  font-weight: 600;
+  color: var(--primary);
+}

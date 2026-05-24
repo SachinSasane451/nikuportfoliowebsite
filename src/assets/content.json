@@ -1,0 +1,26 @@
+{
+  "name": "Nikita Sasane",
+  "role": "B.Ed Student | Aspiring School Teacher",
+  "about": "I am a B.Ed student passionate about teaching and guiding students with care.",
+  "education": [
+    "Bachelor's Degree – Completed",
+    "B.Ed – Pursuing"
+  ],
+  "skills": [
+    "Lesson Planning",
+    "Classroom Management",
+    "Student Engagement",
+    "Basic Educational Technology"
+  ],
+  "philosophy": "Every child can learn when guided with patience and encouragement.",
+
+  "internship": {
+    "description": "Completed practice teaching during B.Ed program where I assisted teachers, handled classroom activities, and gained real teaching experience.",
+    "images": [
+      "assets/images/internship/teach1.jpg",
+      "assets/images/internship/teach2.jpg",
+      "assets/images/internship/teach3.jpg",
+      "assets/images/internship/teach4.jpg"
+    ]
+  }
+}

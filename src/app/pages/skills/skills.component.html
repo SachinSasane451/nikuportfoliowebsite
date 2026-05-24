@@ -1,0 +1,31 @@
+<section class="fade skills">
+  <h2>{{ lang === 'mr' ? 'कौशल्ये व प्रमाणपत्रे' : 'Skills & Certifications' }}</h2>
+
+  <div class="card">
+    <h3>{{ lang === 'mr' ? 'अध्यापन कौशल्ये' : 'Teaching Skills' }}</h3>
+    <ul class="grid">
+      <li *ngFor="let s of skills.teachingSkills[lang]">{{ s }}</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>{{ lang === 'mr' ? 'वैयक्तिक कौशल्ये' : 'Personal Skills' }}</h3>
+    <ul class="grid">
+      <li *ngFor="let s of skills.personalSkills[lang]">{{ s }}</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>{{ lang === 'mr' ? 'प्रमाणपत्रे' : 'Certifications & Trainings' }}</h3>
+
+    <div class="cert-slider">
+      <img
+        [src]="skills.certifications[certIndex].image"
+        alt="Certificate"
+      />
+      <p class="cert-title">
+        {{ skills.certifications[certIndex].title[lang] }}
+      </p>
+    </div>
+  </div>
+</section>

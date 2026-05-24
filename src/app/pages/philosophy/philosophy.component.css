@@ -1,0 +1,14 @@
+.philosophy {
+  max-width: 850px;
+}
+
+.philosophy p {
+  margin-bottom: 16px;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .philosophy {
+    text-align: left;
+  }
+}

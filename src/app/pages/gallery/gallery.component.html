@@ -1,0 +1,29 @@
+<section class="gallery-section fade">
+  <h2 class="gallery-title">Teaching Experience</h2>
+
+  <div class="gallery-grid">
+    <div
+      class="gallery-card"
+      *ngFor="let exp of experiences; let i = index"
+      [class.hovered]="hoveredIndex === i"
+      (mouseenter)="pause(i)"
+      (mouseleave)="resume(i)"
+    >
+      <div class="image-wrapper">
+  <img
+    [src]="exp.images[currentIndexMap[i]].src"
+    [alt]="exp.images[currentIndexMap[i]].label"
+    loading="lazy"
+  />
+
+  <button class="nav-btn prev" (click)="prevImage(i)">❮</button>
+  <button class="nav-btn next" (click)="nextImage(i)">❯</button>
+
+  <div class="overlay">
+    <h4>{{ exp.school }}</h4>
+    <p>{{ exp.images[currentIndexMap[i]].label }}</p>
+  </div>
+</div>
+    </div>
+  </div>
+</section>

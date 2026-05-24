@@ -1,0 +1,7 @@
+<section class="fade">
+  <h2>{{ lang === 'mr' ? 'माझ्याबद्दल' : 'About Me' }}</h2>
+
+  <p *ngFor="let para of about">
+    {{ para[lang] }}
+  </p>
+</section>

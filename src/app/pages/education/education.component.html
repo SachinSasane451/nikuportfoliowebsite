@@ -1,0 +1,14 @@
+<section class="fade">
+  <h2>{{ lang === 'mr' ? 'शैक्षणिक पात्रता' : 'Educational Qualifications' }}</h2>
+
+  <div class="edu-list" *ngIf="data?.education?.length">
+
+    <div class="edu-card" *ngFor="let edu of data.education">
+      <h3>{{ edu.degree[lang] }}</h3>
+      <span class="status">{{ edu.status[lang] }}</span>
+      <p>{{ edu.details[lang] }}</p>
+      <small>{{ edu.institution[lang] }} | {{ edu.duration }}</small>
+    </div>
+
+  </div>
+</section>

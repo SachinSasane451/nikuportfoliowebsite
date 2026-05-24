@@ -1,0 +1,44 @@
+<section class="hero fade" *ngIf="data">
+
+  <!-- PROFILE IMAGE -->
+  <div class="profile-wrap">
+    <img
+      [src]="data.basic.profileImage"
+      alt="Nikita Sasane Profile Photo"
+      loading="lazy"
+      class="profile"
+    />
+  </div>
+
+  <!-- NAME & ROLE -->
+  <h1 class="name">{{ data.basic.name }}</h1>
+
+  <!-- ✅ FIXED -->
+  <h3 class="role">{{ data.basic.role[lang] }}</h3>
+
+  <!-- ✅ FIXED -->
+  <p class="location">📍 {{ data.basic.location[lang] }}</p>
+
+  <!-- HEADLINE -->
+  <!-- ✅ FIXED -->
+  <h2 class="headline">
+    {{ data.hero.headline[lang] }}
+  </h2>
+
+  <!-- DESCRIPTION -->
+  <!-- ✅ FIXED -->
+  <p class="description">
+    {{ data.hero.description[lang] }}
+  </p>
+
+  <!-- CTA BUTTONS -->
+  <div class="cta">
+    <a routerLink="/contact" class="btn primary">
+      {{ lang === 'mr' ? 'संपर्क करा' : 'Contact Me' }}
+    </a>
+    <a routerLink="/about" class="btn outline">
+      {{ lang === 'mr' ? 'माझ्याबद्दल' : 'About Me' }}
+    </a>
+  </div>
+
+</section>

@@ -1,0 +1,22 @@
+<nav class="nav">
+  <div class="logo">Nikita Sasane</div>
+
+  <button class="menu-btn" (click)="toggleMenu()">☰</button>
+
+  <div class="links" [class.open]="isOpen">
+    <a routerLink="/" (click)="toggleMenu()">Home</a>
+    <a routerLink="/gallery" (click)="toggleMenu()">Gallery</a>
+    <a routerLink="/about" (click)="toggleMenu()">About</a>
+    <a routerLink="/education" (click)="toggleMenu()">Education</a>
+    <a routerLink="/skills" (click)="toggleMenu()">Skills</a>
+    <a routerLink="/internship" (click)="toggleMenu()">Internship</a>
+    <a routerLink="/contact" (click)="toggleMenu()">Contact</a>
+
+    <!-- 🔥 ACTION BUTTONS -->
+    <div class="nav-actions">
+      <button (click)="setLang('en')">EN</button>
+      <button (click)="setLang('mr')">मराठी</button>
+      <button (click)="toggleTheme()">🌙</button>
+    </div>
+  </div>
+</nav>

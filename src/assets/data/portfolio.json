@@ -1,0 +1,386 @@
+{
+  "basic": {
+    "name": "Nikita Sasane",
+    "role": {
+      "en": "B.Ed Student | Aspiring School Teacher",
+      "mr": "बी.एड. विद्यार्थिनी | भावी शालेय शिक्षिका"
+    },
+    "location": {
+      "en": "Bajaj Nagar, Chhatrapati Sambhajinagar, Maharashtra, India",
+      "mr": "बजाज नगर, छत्रपती संभाजीनगर, महाराष्ट्र, भारत"
+    },
+    "profileImage": "assets/images/profile/nikuprofile1.webp"
+  },
+
+  "hero": {
+    "headline": {
+      "en": "Shaping Young Children into Confident and Curious Learners",
+      "mr": "लहान मुलांना आत्मविश्वासपूर्ण आणि जिज्ञासू विद्यार्थी घडविणे"
+    },
+    "description": {
+      "en": "A dedicated B.Ed student committed to nurturing children through disciplined teaching, emotional understanding, and student-centered learning.",
+      "mr": "शिस्तबद्ध अध्यापन, भावनिक समज आणि विद्यार्थीकेंद्रित शिक्षणाद्वारे मुलांच्या सर्वांगीण विकासासाठी कटिबद्ध बी.एड. विद्यार्थिनी."
+    }
+  },
+
+  "about": {
+    "content": [
+      {
+        "en": "I am currently pursuing a Bachelor of Education (B.Ed) and I am also a B.Sc. graduate, with a strong academic background and a deep interest in teaching.",
+        "mr": "मी सध्या बी.एड. शिक्षण घेत असून बी.एस्सी. पदवीधर आहे. माझी शैक्षणिक पार्श्वभूमी भक्कम असून अध्यापनात मला विशेष रुची आहे."
+      },
+      {
+        "en": "Teaching is not just a profession for me, but a passion. I have taught students in multiple schools and gained hands-on classroom experience while working closely with children.",
+        "mr": "अध्यापन हे माझ्यासाठी केवळ व्यवसाय नसून ती माझी आवड आहे. मी अनेक शाळांमध्ये विद्यार्थ्यांना शिकवले असून प्रत्यक्ष वर्गशिक्षणाचा अनुभव घेतला आहे."
+      },
+      {
+        "en": "I am known for my innovative teaching methods, strong understanding of children’s learning needs, and my ability to build a positive and supportive learning environment.",
+        "mr": "नाविन्यपूर्ण अध्यापन पद्धती, मुलांच्या शिकण्याच्या गरजांची समज आणि सकारात्मक शिक्षण वातावरण निर्माण करण्यासाठी मी ओळखली जाते."
+      },
+      {
+        "en": "I have worked under the guidance of experienced educators, which has helped me develop effective teaching skills that go beyond textbooks and focus on real understanding.",
+        "mr": "अनुभवी शिक्षकांच्या मार्गदर्शनाखाली काम केल्यामुळे पुस्तकांपलीकडे जाऊन प्रभावी अध्यापन कौशल्ये विकसित झाली आहेत."
+      },
+      {
+        "en": "I am eager to continue learning, growing as an educator, and contributing meaningfully to a school. If you are looking for a dedicated, experienced, and student-focused teacher, I would be glad to be considered.",
+        "mr": "मी सतत शिकण्यास, एक उत्तम शिक्षिका म्हणून विकसित होण्यास आणि शाळेच्या प्रगतीस हातभार लावण्यास उत्सुक आहे. अनुभवी व विद्यार्थीकेंद्रित शिक्षिका शोधत असाल तर मला नक्कीच विचारात घ्यावे."
+      }
+    ]
+  },
+
+  "education": [
+    {
+      "degree": {
+        "en": "Bachelor of Education (B.Ed)",
+        "mr": "बी.एड. (शिक्षणशास्त्र पदवी)"
+      },
+      "institution": {
+        "en": "Abasaheb Kakade Mahavidyalaya, Shevgaon, Ahilyanagar",
+        "mr": "आबासाहेब काकडे महाविद्यालय, शेवगाव, अहिल्यानगर"
+      },
+      "duration": "2025 – 2027",
+      "status": {
+        "en": "Pursuing",
+        "mr": "अभ्यासरत"
+      },
+      "details": {
+        "en": "Focused on pedagogy, science teaching methods, child psychology, classroom management, lesson planning, and effective evaluation techniques.",
+        "mr": "शिक्षणशास्त्र, विज्ञान अध्यापन पद्धती, बाल मानसशास्त्र, वर्गव्यवस्थापन, धडा नियोजन आणि मूल्यमापन तंत्रांवर भर."
+      }
+    },
+    {
+      "degree": {
+        "en": "Bachelor of Science (B.Sc)",
+        "mr": "बी.एस्सी. (विज्ञान पदवी)"
+      },
+      "institution": {
+        "en": "Swami Vivekanand College, Chhatrapati Sambhajinagar",
+        "mr": "स्वामी विवेकानंद महाविद्यालय, छत्रपती संभाजीनगर"
+      },
+      "duration": "2021 – 2024",
+      "status": {
+        "en": "Completed",
+        "mr": "पूर्ण"
+      },
+      "details": {
+        "en": "Completed with a strong foundation in science subjects, analytical thinking, and academic discipline.",
+        "mr": "विज्ञान विषयांमध्ये भक्कम पाया, विश्लेषणात्मक विचारसरणी आणि शैक्षणिक शिस्तीसह पदवी पूर्ण."
+      }
+    },
+    {
+      "degree": {
+        "en": "Higher Secondary Education (12th – Science)",
+        "mr": "उच्च माध्यमिक शिक्षण (१२वी – विज्ञान)"
+      },
+      "institution": {
+        "en": "Orchid College, Bajaj Nagar, Chhatrapati Sambhajinagar",
+        "mr": "ऑर्किड कॉलेज, बजाज नगर, छत्रपती संभाजीनगर"
+      },
+      "duration": "2020",
+      "status": {
+        "en": "Completed",
+        "mr": "पूर्ण"
+      },
+      "details": {
+        "en": "Passed with 63.8% and developed strong subject knowledge and interest in science education.",
+        "mr": "६३.८% गुणांसह उत्तीर्ण, विज्ञान शिक्षणात रुची आणि विषयज्ञान विकसित."
+      }
+    },
+    {
+      "degree": {
+        "en": "Secondary School Education (10th)",
+        "mr": "माध्यमिक शिक्षण (१०वी)"
+      },
+      "institution": {
+        "en": "Lal Bahadur Shastri Vidyalaya, Bajaj Nagar, Chhatrapati Sambhajinagar",
+        "mr": "लाल बहादूर शास्त्री विद्यालय, बजाज नगर, छत्रपती संभाजीनगर"
+      },
+      "duration": "2018",
+      "status": {
+        "en": "Completed",
+        "mr": "पूर्ण"
+      },
+      "details": {
+        "en": "Passed with 68.9% and built a strong academic base with discipline and learning ethics.",
+        "mr": "६८.९% गुणांसह उत्तीर्ण, शिस्त आणि अध्ययन मूल्यांसह मजबूत शैक्षणिक पाया."
+      }
+    }
+  ],
+
+  "skillsSection": {
+    "teachingSkills": {
+      "en": [
+        "Lesson Planning and Preparation",
+        "Classroom Management",
+        "Student Engagement Techniques",
+        "Assessment and Evaluation Support",
+        "Handling Diverse Learning Needs",
+        "Maintaining Discipline with Care"
+      ],
+      "mr": [
+        "धडा नियोजन व तयारी",
+        "वर्गव्यवस्थापन",
+        "विद्यार्थी सहभाग तंत्र",
+        "मूल्यमापन व मूल्यांकन सहाय्य",
+        "विविध शिकण्याच्या गरजांचे व्यवस्थापन",
+        "शिस्तबद्ध व काळजीपूर्वक अध्यापन"
+      ]
+    },
+    "personalSkills": {
+      "en": [
+        "Patience and Empathy",
+        "Clear Communication",
+        "Time Management",
+        "Adaptability",
+        "Positive Attitude",
+        "Willingness to Learn"
+      ],
+      "mr": [
+        "संयम आणि सहानुभूती",
+        "स्पष्ट संवाद कौशल्य",
+        "वेळ व्यवस्थापन",
+        "परिस्थितीनुसार जुळवून घेण्याची क्षमता",
+        "सकारात्मक दृष्टीकोन",
+        "सतत शिकण्याची तयारी"
+      ]
+    },
+    "certifications": [
+      {
+        "title": {
+          "en": "Anek Spardha Pariksha – Book Review Certificate",
+          "mr": "अनेक स्पर्धा परीक्षा – पुस्तक परीक्षण प्रमाणपत्र"
+        },
+        "image": "assets/images/certificates/anek-book-review.webp"
+      },
+      {
+        "title": {
+          "en": "Essay Competition (Nibandh Spardha) – Participation Certificate",
+          "mr": "निबंध स्पर्धा – सहभाग प्रमाणपत्र"
+        },
+        "image": "assets/images/certificates/essay-competition.webp"
+      },
+      {
+        "title": {
+          "en": "MS-CIT (Maharashtra State Certificate in Information Technology)",
+          "mr": "एमएस-सीआयटी (महाराष्ट्र राज्य संगणक प्रमाणपत्र)"
+        },
+        "image": "assets/images/certificates/mscit.webp"
+      },
+      {
+        "title": {
+          "en": "Saraswati Education Scholarship Examination Certificate",
+          "mr": "सरस्वती एज्युकेशन शिष्यवृत्ती परीक्षा प्रमाणपत्र"
+        },
+        "image": "assets/images/certificates/saraswati-scholarship.webp"
+      },
+      {
+        "title": {
+          "en": "Future Skill Development Classes – Training Certificate",
+          "mr": "फ्युचर स्किल डेव्हलपमेंट क्लासेस – प्रशिक्षण प्रमाणपत्र"
+        },
+        "image": "assets/images/certificates/future-skill.webp"
+      }
+    ]
+  },
+
+  "workExperience": {
+    "title": {
+      "en": "Work Experience (Teaching Experience)",
+      "mr": "कार्यअनुभव (अध्यापन अनुभव)"
+    },
+    "experiences": [
+      {
+        "school": {
+          "en": "Swastic International School",
+          "mr": "स्वस्तिक इंटरनॅशनल स्कूल"
+        },
+        "role": {
+          "en": "Science Teacher",
+          "mr": "विज्ञान शिक्षिका"
+        },
+        "duration": "2024 – 2025",
+        "description": {
+          "en": "Served as a Science Teacher, actively involved in classroom teaching and student development.",
+          "mr": "विज्ञान शिक्षिका म्हणून कार्य करत वर्गशिक्षण व विद्यार्थ्यांच्या सर्वांगीण विकासात सक्रिय सहभाग."
+        },
+        "responsibilities": {
+          "en": [
+            "Taught science subjects using clear explanations and practical examples",
+            "Maintained classroom discipline and a positive learning environment",
+            "Prepared structured lesson plans and teaching aids",
+            "Encouraged student participation and curiosity in learning",
+            "Assisted in student assessment and academic support"
+          ],
+          "mr": [
+            "स्पष्ट समजावणी व उदाहरणांद्वारे विज्ञान अध्यापन",
+            "वर्गातील शिस्त व सकारात्मक वातावरण राखले",
+            "धडा नियोजन व अध्यापन साधने तयार केली",
+            "विद्यार्थ्यांमध्ये जिज्ञासा व सहभाग वाढवला",
+            "विद्यार्थी मूल्यमापन व शैक्षणिक सहाय्य"
+          ]
+        },
+        "images": [
+          {
+            "src": "assets/images/work/abasahebkakdeteachers.webp",
+            "label": {
+              "en": "Classroom Teaching Session",
+              "mr": "वर्गातील अध्यापन सत्र"
+            }
+          },
+          {
+            "src": "assets/images/work/anchoringniku.webp",
+            "label": {
+              "en": "Anchoring & School Activity",
+              "mr": "सूत्रसंचालन व शालेय उपक्रम"
+            }
+          },
+          {
+            "src": "assets/images/work/teaching1.webp",
+            "label": {
+              "en": "Science Teaching Activity",
+              "mr": "विज्ञान अध्यापन उपक्रम"
+            }
+          },
+          {
+            "src": "assets/images/work/cleaningniku.webp",
+            "label": {
+              "en": "Student Engagement Activity",
+              "mr": "विद्यार्थी सहभाग उपक्रम"
+            }
+          },
+          {
+            "src": "assets/images/work/craftniku.webp",
+            "label": {
+              "en": "Creative Learning Activity",
+              "mr": "सर्जनशील शिक्षण उपक्रम"
+            }
+          },
+          {
+            "src": "assets/images/work/meditationniku.webp",
+            "label": {
+              "en": "Student Wellness & Meditation",
+              "mr": "विद्यार्थी ध्यान व कल्याण"
+            }
+          },
+          {
+            "src": "assets/images/work/sanvidhandin.webp",
+            "label": {
+              "en": "Sanvidhan Din School Program",
+              "mr": "संविधान दिन शालेय कार्यक्रम"
+            }
+          }
+        ]
+      },
+      {
+  "school": {
+    "en": "Amrapur Madhyamik Va Uchcha Madhyamik Vidyalaya",
+    "mr": "अमरापुर माध्यमिक व उच्च माध्यमिक विद्यालय"
+  },
+  "role": {
+    "en": "Teaching Internship",
+    "mr": "शिक्षण प्रशिक्षण"
+  },
+  "description": {
+    "en": "Actively participated in classroom teaching, student engagement activities, and academic support during the teaching internship.",
+    "mr": "शिक्षण प्रशिक्षणादरम्यान वर्गशिक्षण, विद्यार्थी सहभाग उपक्रम आणि शैक्षणिक सहाय्यात सक्रिय सहभाग."
+  },
+  "responsibilities": {
+    "en": [
+      "Conducted classroom teaching sessions",
+      "Supported students in academic activities",
+      "Prepared lesson plans and teaching materials",
+      "Maintained classroom discipline and interaction",
+      "Participated in school events and educational activities"
+    ],
+    "mr": [
+      "वर्गातील अध्यापन सत्रे घेतली",
+      "विद्यार्थ्यांना शैक्षणिक उपक्रमांमध्ये मार्गदर्शन केले",
+      "धडा नियोजन व अध्यापन साहित्य तयार केले",
+      "वर्गातील शिस्त व संवाद राखला",
+      "शालेय कार्यक्रम व शैक्षणिक उपक्रमांमध्ये सहभाग घेतला"
+    ]
+  },
+  "images": [
+    {
+      "src": "assets/images/internship/amrapur1.jpeg",
+      "label": {
+        "en": "Classroom Teaching Activity",
+        "mr": "वर्गातील अध्यापन उपक्रम"
+      }
+    },
+    {
+      "src": "assets/images/internship/amrapur2.jpeg",
+      "label": {
+        "en": "Student Interaction Session",
+        "mr": "विद्यार्थी संवाद सत्र"
+      }
+    },
+    {
+      "src": "assets/images/internship/amrapur3.jpeg",
+      "label": {
+        "en": "Teaching Practice Activity",
+        "mr": "अध्यापन सराव उपक्रम"
+      }
+    },
+    {
+      "src": "assets/images/internship/amrapur4.jpeg",
+      "label": {
+        "en": "Learning Engagement Activity",
+        "mr": "शैक्षणिक सहभाग उपक्रम"
+      }
+    },
+    {
+      "src": "assets/images/internship/amrapur5.jpeg",
+      "label": {
+        "en": "Educational Classroom Session",
+        "mr": "शैक्षणिक वर्ग सत्र"
+      }
+    },
+    {
+      "src": "assets/images/internship/amrapur6.jpeg",
+      "label": {
+        "en": "School Academic Activity",
+        "mr": "शालेय शैक्षणिक उपक्रम"
+      }
+    },
+    {
+      "src": "assets/images/internship/amrapur7.jpeg",
+      "label": {
+        "en": "Teaching & Student Support",
+        "mr": "अध्यापन व विद्यार्थी सहाय्य"
+      }
+    }
+  ]
+}
+    ]
+  },
+
+  "contact": {
+    "email": "nikitasasane1527@gmail.com",
+    "phone": "+91-8767635384",
+    "availability": {
+      "en": "Available for full-time and part-time teaching opportunities in schools.",
+      "mr": "शाळांमध्ये पूर्णवेळ व अर्धवेळ अध्यापनासाठी उपलब्ध."
+    }
+  }
+}

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ThemeService } from './services/theme.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'nikuportfolio';
+   loading = true;
+
+
+   constructor(private themeService: ThemeService) {}
+
+ngOnInit() {
+  this.themeService.initTheme();
+}
+
 }

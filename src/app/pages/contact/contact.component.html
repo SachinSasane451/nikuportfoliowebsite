@@ -1,0 +1,43 @@
+<section class="contact-section fade soft-bg" *ngIf="contact">
+
+  <h2>Contact</h2>
+  <p class="subtitle">{{ contact.availability[lang] }}</p>
+
+  <div class="contact-grid">
+
+    <!-- LEFT : INFO + FORM -->
+    <div class="contact-card">
+
+      <div class="contact-info">
+        <p><strong>Email:</strong> {{ contact.email }}</p>
+        <p><strong>Phone:</strong> {{ contact.phone }}</p>
+        <p><strong>Location:</strong> {{ contact.location }}</p>
+      </div>
+
+      <form
+        class="contact-form"
+        [formGroup]="contactForm"
+        (ngSubmit)="submitForm()"
+      >
+        <input type="text" placeholder="Your Name" formControlName="name">
+        <input type="email" placeholder="Your Email" formControlName="email">
+        <input type="text" placeholder="Phone Number" formControlName="phone">
+        <textarea rows="4" placeholder="Message" formControlName="message"></textarea>
+
+        <button type="submit" [disabled]="contactForm.invalid">
+          Send Message
+        </button>
+      </form>
+
+    </div>
+
+    <!-- RIGHT : MAP -->
+    <div class="map-wrapper">
+      <iframe
+        src="https://www.google.com/maps?q=Bajaj%20Nagar%20Chhatrapati%20Sambhajinagar&output=embed"
+        loading="lazy">
+      </iframe>
+    </div>
+
+  </div>
+</section>

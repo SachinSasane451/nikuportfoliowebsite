@@ -1,0 +1,25 @@
+<section class="fade">
+  <h2>
+  {{ lang === 'mr' ? 'कार्यअनुभव (अध्यापन अनुभव)' : 'Work Experience (Teaching Experience)' }}
+</h2>
+
+  <div class="school-card" *ngFor="let exp of experiences; let i = index">
+
+    <div class="school-header" (click)="toggleSchool(i)">
+      <h3>{{ exp.school[lang] }}</h3>
+      <span class="duration">{{ exp.duration }}</span>
+    </div>
+
+    <div class="school-body" [class.open]="activeIndex === i">
+
+      <p class="desc">{{ exp.description[lang] }}</p>
+
+      <ul>
+        <li *ngFor="let r of exp.responsibilities[lang]">
+          {{ r }}
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</section>
